@@ -1,21 +1,47 @@
 //-----------Descriptions-----------//
 
-Hi! Thank you for coming, this is promptopia. A personal project that i make, based on the tutorial of NEXT.js in Youtube. 
+Promptopia is a website where people can share and copy prompts that they find useful. Prompts are short pieces of text that can be used to generate creative content, such as code, scripts, or poems.
 
-I try to learn how to use NEXT.js through this project, i'm aware, that it can't prove that I'm good on next based on a tutorial I seen on youtube. But this is just a little demonstration of my will that I love to learn something new and explore the resources needed as a Developer.
+The website is built on the Next.js framework and uses MongoDB as a database. It also uses React and Tailwind CSS for the frontend.
 
-Promptopia is a website made so that people could share prompt that are useful by them and share it with others. They could post the prompt and the tag, and other user could see and copy the text. Main Feature of this website is CRUD as follows:
+The main features of Promptopia are:
 
-    - User can create account by login through google.
-    - if logged/not logged, user can see the prompt that has been created by other user. and copied it straight to their keyboard.
-    - If logged, user can create a post and will be displayed in the main page.
-    - If logged, user can edit or delete the post that they make.
+- User registration and login: Users can create an account and log in to the website.
+- Prompt creation and management: Users can create, edit, and delete their own prompts.
+- Prompt browsing: Users can browse all the prompts that have been created by other users.
+- Prompt copying: Users can copy prompts directly to their clipboard.
 
-// ---------------Techy Stuff -----------------//
+The tech stack used in Promptopia is as follows:
 
-The tech stack used in this website is as follows:
-    - MongoDB & Mongoose 
-    - React & Next (V.13)
-    - Tailwind as Style Library
+- MongoDB: A NoSQL database that is used to store the prompts.
+- Mongoose: A MongoDB ODM that is used to interact with the database.
+- React: A JavaScript library that is used to build the frontend of the website.
+- Next.js: A React framework that is used to build server-rendered React applications.
+- Tailwind CSS: A utility-first CSS framework that is used to style the website.
+- The website uses three HTTP methods:
 
-There are 3 HTTP methods used in this website, GET, POST and PATCH can be seen on client > app > api > folders
+- GET: Used to retrieve prompts from the database.
+- POST: Used to create new prompts in the database.
+- PATCH: Used to update existing prompts in the database.
+
+The purpose of Promptopia is to help people learn how to use AI prompts more effectively. By sharing and copying prompts from other users, people can see what prompt ideas have worked well for others and use them to improve their own creative projects.
+
+The target audience for Promptopia is wide, but it is mostly millennials who love to learn new tools like AI or people in general that use the AI Prompt. The benefits of using Promptopia include:
+
+- Learning from other people's experiences with AI prompts
+- Finding prompts that are relevant to your specific needs
+- Saving time by not having to create your own prompts
+
+The features that are still under development include:
+
+- Search filter by person name or tag
+- Comment on each prompt post
+- User info like their detail, how many prompt they make, and shown it that page
+
+The plans for the future of Promptopia include:
+
+- Adding more features, such as the ability to rate prompts and to save prompts to a personal library
+- Expanding the target audience to include people of all ages and skill levels
+- Making Promptopia available in more languages
+
+Promptopia is a simple but powerful tool that can be used to share and copy prompts. It is a great way to find and use prompts that can help you with your creative projects.
